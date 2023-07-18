@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/bottom_config_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.android.camera2.compat.theme.custom.mm.top.StrikethroughImageView android:id="@id/bottom_config_01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_new_config_flash_on_cv" style="@style/PanelRotateImageViewStyle" />
+        <com.android.camera2.compat.theme.custom.mm.top.StrikethroughImageView android:id="@id/bottom_config_02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_new_effect_button_normal_cv" style="@style/PanelRotateImageViewStyle" />
+        <com.android.camera2.compat.theme.custom.mm.top.StrikethroughImageView android:id="@id/bottom_config_03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_new_effect_button_normal_cv" style="@style/PanelRotateImageViewStyle" />
+        <com.android.camera2.compat.theme.custom.mm.top.StrikethroughImageView android:id="@id/bottom_config_04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_new_effect_button_normal_cv" style="@style/PanelRotateImageViewStyle" />
+    </FrameLayout>
+</FrameLayout>

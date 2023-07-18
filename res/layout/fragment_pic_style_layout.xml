@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="bottom|center" android:orientation="vertical" android:id="@id/manual_picture_style_slide_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/slide_tip_textsize" android:textStyle="normal" android:textColor="@color/white" android:layout_gravity="bottom|center" android:id="@id/beauty_tip" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/ShadowStyleMM" />
+        <com.android.camera2.compat.theme.custom.mm.beauty.HorizontalZoomViewMM android:id="@id/manual_picture_style_single_slidebar" android:layout_width="fill_parent" android:layout_height="@dimen/slide_height_mm" android:layout_marginStart="@dimen/slide_leftpadding_mm" android:layout_marginEnd="@dimen/slide_leftpadding_mm" />
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom|center" android:layout_gravity="bottom|center" android:orientation="horizontal" android:id="@id/manual_picture_style_color_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/manual_picture_style_color_temp_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/zoom_popup_x_textSize" android:textStyle="normal" android:textColor="@color/white" android:layout_gravity="bottom|center" android:id="@id/style_color_temp_des" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/ShadowStyleMM" />
+            <TextView android:textSize="@dimen/zoom_popup_x_textSize" android:textStyle="normal" android:textColor="@color/white" android:layout_gravity="bottom|center" android:id="@id/style_color_temp_value" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/ShadowStyleMM" />
+            <com.android.camera2.compat.theme.custom.mm.beauty.HorizontalZoomViewMM android:id="@id/style_color_temp_slide" android:layout_width="80.0dip" android:layout_height="@dimen/slide_height_mm" android:layout_marginStart="@dimen/slide_leftpadding_mm" android:layout_marginEnd="@dimen/slide_leftpadding_mm" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/manual_picture_style_color_tone_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/zoom_popup_x_textSize" android:textStyle="normal" android:textColor="@color/white" android:layout_gravity="bottom|center" android:id="@id/style_color_tone_des" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/ShadowStyleMM" />
+            <TextView android:textSize="@dimen/zoom_popup_x_textSize" android:textStyle="normal" android:textColor="@color/white" android:layout_gravity="bottom|center" android:id="@id/style_color_tone_value" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/ShadowStyleMM" />
+            <com.android.camera2.compat.theme.custom.mm.beauty.HorizontalZoomViewMM android:id="@id/style_color_tone_slide" android:layout_width="80.0dip" android:layout_height="@dimen/slide_height_mm" android:layout_marginStart="@dimen/slide_leftpadding_mm" android:layout_marginEnd="@dimen/slide_leftpadding_mm" />
+        </LinearLayout>
+    </LinearLayout>
+    <miuix.springback.view.SpringBackLayout android:layout_gravity="bottom|center" android:layout_width="fill_parent" android:layout_height="wrap_content" app:scrollOrientation="horizontal" app:scrollableView="@id/picture_style_list_mm">
+        <com.android.camera2.compat.theme.custom.mm.beauty.MakeupSelectViewMM android:layout_gravity="center_vertical" android:id="@id/picture_style_list_mm" android:clickable="false" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </miuix.springback.view.SpringBackLayout>
+</LinearLayout>

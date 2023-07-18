@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="doc4_content_bound_bottom_margin">144.017dip</dimen>
+    <dimen name="doc4_content_bound_horizontal_margin">149.573dip</dimen>
+    <dimen name="doc4_content_bound_top_margin">174.15399dip</dimen>
+    <dimen name="doc4_text_tips_margin_top">17.109985dip</dimen>
+    <dimen name="manually_indicator_background_margin_left_right">17.169983dip</dimen>
+    <dimen name="manually_indicator_background_margin_top_bottom">17.169983dip</dimen>
+    <dimen name="mode_item_margin_new">102.0dip</dimen>
+    <dimen name="plane_entrance_margin_hor">38.919983dip</dimen>
+</resources>
