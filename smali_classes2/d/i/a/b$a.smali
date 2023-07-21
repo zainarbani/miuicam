@@ -66,11 +66,11 @@
 
     iget-object v0, p0, Ld/i/a/b$a;->c:Ld/i/a/b;
 
-    invoke-static {v0}, Ld/i/a/b;->a(Ld/i/a/b;)L걷걻걹갺걹걽갺거걱걢걽걷걱갺걗걻걹걹걻걺;
+    invoke-static {v0}, Ld/i/a/b;->a(Ld/i/a/b;)LCommon;
 
     move-result-object v0
 
-    invoke-virtual {v0}, L걷걻걹갺걹걽갺거걱걢걽걷걱갺걗걻걹걹걻걺;->F1()I
+    invoke-virtual {v0}, LCommon;->F1()I
 
     move-result v0
 
@@ -98,11 +98,11 @@
 
     iget-object p0, p0, Ld/i/a/b$a;->c:Ld/i/a/b;
 
-    invoke-static {p0}, Ld/i/a/b;->a(Ld/i/a/b;)L걷걻걹갺걹걽갺거걱걢걽걷걱갺걗걻걹걹걻걺;
+    invoke-static {p0}, Ld/i/a/b;->a(Ld/i/a/b;)LCommon;
 
     move-result-object p0
 
-    invoke-virtual {p0}, L걷걻걹갺걹걽갺거걱걢걽걷걱갺걗걻걹걹걻걺;->c0()I
+    invoke-virtual {p0}, LCommon;->c0()I
 
     move-result p0
 

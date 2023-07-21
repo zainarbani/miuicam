@@ -68,7 +68,7 @@
     return-object v0
 .end method
 
-.method public static b(Ljava/lang/String;)L걷걻걹갺걹걽갺거걱걢걽걷걱갺걗걻걹걹걻걺;
+.method public static b(Ljava/lang/String;)LCommon;
     .locals 2
     .annotation system Ldalvik/annotation/MethodParameters;
         accessFlags = {
@@ -83,14 +83,6 @@
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v1, "\u671e\u6712\u6710\u6753\u6710\u6714\u6753\u6719\u6718\u670b\u6714\u671e\u6718\u6753"
-
-    invoke-static {v1}, Ld/j/f/a/c/e;->a(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     invoke-static {p0}, Le/b;->a(Ljava/lang/String;)Ljava/lang/String;
 
@@ -110,7 +102,7 @@
 
     move-result-object p0
 
-    check-cast p0, L걷걻걹갺걹걽갺거걱걢걽걷걱갺걗걻걹걹걻걺;
+    check-cast p0, LCommon;
     :try_end_0
     .catch Ljava/lang/ClassNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
     .catch Ljava/lang/IllegalAccessException; {:try_start_0 .. :try_end_0} :catch_0
@@ -119,9 +111,9 @@
     goto :goto_0
 
     :catch_0
-    new-instance p0, L걷걻걹갺걹걽갺거걱걢걽걷걱갺걗걻걹걹걻걺;
+    new-instance p0, LCommon;
 
-    invoke-direct {p0}, L걷걻걹갺걹걽갺거걱걢걽걷걱갺걗걻걹걹걻걺;-><init>()V
+    invoke-direct {p0}, LCommon;-><init>()V
 
     :goto_0
     return-object p0

@@ -1,4 +1,4 @@
-.class public interface abstract annotation L䁚䁖䁔䀗䁔䁐䀗䁝䁜䁏䁐䁚䁜䀗䁺䁖䁗䁟䁐䁞䁺䁖䁗䁊䁍䁘䁗䁍$a;
+.class public interface abstract annotation LConfigConstant$a;
 .super Ljava/lang/Object;
 .source "ConfigConstant.java"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = L䁚䁖䁔䀗䁔䁐䀗䁝䁜䁏䁐䁚䁜䀗䁺䁖䁗䁟䁐䁞䁺䁖䁗䁊䁍䁘䁗䁍;
+    value = LConfigConstant;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

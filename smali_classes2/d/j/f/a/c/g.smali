@@ -30,10 +30,6 @@
         }
     .end annotation
 
-    invoke-static {p0}, Ld/j/f/a/c/c;->a(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object p0
-
     invoke-static {p0}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object p0
